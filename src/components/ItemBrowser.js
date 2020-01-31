@@ -20,6 +20,7 @@ function ItemBrowser(props) {
                   key={item.id}
                   id={item.id}
                   thumbnail={item.thumbnail}
+                  owner={item.owner}
                   title={item.title}
                   snippet={item.snippet}
                   url={item.url}
