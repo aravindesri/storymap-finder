@@ -9,7 +9,7 @@ function ItemCard(props) {
         src={`https://www.arcgis.com/sharing/rest/content/items/${
           props.id
         }/info/${props.thumbnail}`}
-        caption="Florida, January 1954"
+        caption=${props.owner}
         alt="Bridge Club, 1954"
       />
       <CardContent className="card-content">
